@@ -1,0 +1,72 @@
+Package: python2-six
+Architecture: all
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.11.0
+Description: Python 2 and 3 compatibility utilities
+Homepage: http://pypi.python.org/pypi/six/
+Depends: python2
+Filename: dists/termux/x-gui/binary-all/python2-six_1.11.0_all.deb
+Size: 9148
+SHA256: fcac1ea37ef2e47fa22269b4f82d6cba76fd41f8f6f1c926a9f2a36475ddcadf
+
+Package: python2-xlib
+Architecture: all
+Installed-Size: 588
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.20
+Description: A fully functional X client library for Python programs
+Homepage: https://github.com/python-xlib/python-xlib
+Depends: python2, python2-six, libx11
+Filename: dists/termux/x-gui/binary-all/python2-xlib_0.20_all.deb
+Size: 73036
+SHA256: f62eed551416b3ebc42f66484f34bef34c24ce5de8a98cb94775f789d1ed49a3
+
+Package: startx
+Architecture: all
+Installed-Size: 4
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0-2
+Description: Script for starting X session
+Homepage: http://openbox.org
+Depends: bash, grep, tigervnc
+Conflicts: openbox (<< 3.6.1-1)
+Recommends: openbox
+Filename: dists/termux/x-gui/binary-all/startx_1.0-2_all.deb
+Size: 1324
+SHA256: ea3ee84158b4e85cc376b42e261f590f0a45c937e5ced2996dfc5b04f00dacb7
+
+Package: x11-proto
+Architecture: all
+Installed-Size: 1304
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.19.1
+Description: X11 headers
+Homepage: https://www.x.org
+Depends: xorg-util-macros
+Filename: dists/termux/x-gui/binary-all/x11-proto_1.19.1_all.deb
+Size: 143856
+SHA256: dcfbe35a7ae4972e2c01a0c3d3c83e26bf7413e8088c1e833b30dcb985630fac
+
+Package: xkeyboard-config
+Architecture: all
+Installed-Size: 3560
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.20
+Description: FIXME:Add description
+Homepage: https://www.x.org
+Filename: dists/termux/x-gui/binary-all/xkeyboard-config_2.20_all.deb
+Size: 294752
+SHA256: 7fb5304442e5735310cdf7091758ba7a9306dcdbfceba69f22761a3f0b9bb909
+
+Package: xorg-util-macros
+Architecture: all
+Installed-Size: 92
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.19.1
+Description: X.Org Autotools macros
+Homepage: https://www.x.org
+Filename: dists/termux/x-gui/binary-all/xorg-util-macros_1.19.1_all.deb
+Size: 21376
+SHA256: d0e9c8af65e2fcccb417678fe64c4c15efb7c3d3d2385b777ce7ab898f0cbaab
+
